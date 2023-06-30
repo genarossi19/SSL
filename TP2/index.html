@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Calculadora</h1>
+  <div id="formulario">
+    <label for="operacion">Operación:</label>
+    <input type="text" id="operacion" placeholder="Ingrese la operación">
+    <button onclick="enviarOperacion()">Enviar</button>
+  </div>
+  <div id="resultado"></div>
+  <button onclick="mostrarProduccion()">Mostrar Producción</button>
+  <div id="produccion"></div>
+</body>
+</html>
